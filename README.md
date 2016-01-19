@@ -6,7 +6,7 @@
 
     
 
-### Test it:
+### Setup
 #### Verify Ruby, RubyGems, and Bundler are installed on your system
   Open a console window and run the following commands to see if your environment has the basic Ruby runtime environment configured 
 
@@ -14,7 +14,7 @@
     gem --version
     bundler --version
     
-  If any of the previous commands fails to return version information, please install the missinng command executable.
+  If any of the previous commands fails to return version information, please install the missing command executable.
   
 #### Update Ruby Gems
   Prior to running the automated tests for the application, please update your Ruby gems 
@@ -23,7 +23,7 @@
     cd test-challenge/
     bundle install
      
-#### Tests  
+### Run Test  
   Once you have updated your Ruby gems, you need to open a console window in order to run the tests.
   In the console window, you can run the following test:
 

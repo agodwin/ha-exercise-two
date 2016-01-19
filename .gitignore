@@ -1,0 +1,9 @@
+# ignore editor backup files
+*~
+
+description.txt
+
+.gem
+/spec/reports/
+Gemfile.lock
+

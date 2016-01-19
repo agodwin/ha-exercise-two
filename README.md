@@ -1,13 +1,14 @@
 # HomeAway Automation Exercise part 2
 
 ### Objective:
-## Write a suite of two automated API tests for https://api.data.gov/
+#### Write a suite of two automated API tests for https://api.data.gov/
 
 
     
 
 ### Test it:
 #### Verify Ruby, RubyGems, and Bundler are installed on your system
+  Open a console window and run the following commands to see if your environment has the basic Ruby runtime environment configured 
 
     ruby --version
     gem --version

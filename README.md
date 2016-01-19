@@ -13,14 +13,19 @@
     ruby --version
     gem --version
     bundler --version
+    git --version
     
   If any of the previous commands fails to return version information, please install the missing command executable.
   
-#### Update Ruby Gems
-  Prior to running the automated tests for the application, please update your Ruby gems 
-  by running the following commands:
+#### Pull the Test Repository
+  Using the same console window, or opening a new console, please clone the test repository from GitHub to you local computer with the following commands:
   
-    cd test-challenge/
+    git clone https://github.com/agodwin/ha-exercise-two.git
+    
+#### Update Ruby Gems
+  Using the same console window, or opening a new console, please update your Ruby gems by running the following commands:
+  
+    cd ha-exercise-two/
     bundle install
      
 ### Run Test  

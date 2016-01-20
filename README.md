@@ -38,7 +38,7 @@
   login to your GitHub account. Once you are logged into your GitHub account, 
   please navigate to GitHub repository with my test code: 
 
-    https://github.com/agodwin/ha-exercise-two
+    <a href="https://github.com/agodwin/ha-exercise-two" target=_break>https://github.com/agodwin/ha-exercise-two</a>
       
   In the top right corner of the page, click the <b>Fork</b> button. Now, you 
   have a <i>fork</i> of the original <i>agodwin/ha-exercise-two</i> repository 

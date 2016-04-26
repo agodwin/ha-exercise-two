@@ -1,6 +1,9 @@
 require 'rest-client'
 require 'json'
 
+#
+## run this test with: rspec -fd data_gov_api_spec.rb
+#
 
 # a way to toggle logging
 def log(msg, flag = false)
@@ -60,7 +63,8 @@ RSpec.describe "Verify data.gov API for Alternative Fuel Stations" do
     end
 
     it "can use the station id to get information about one station" do
-        url = "https://api.data.gov/nrel/alt-fuel-stations/v1/62029.json?api_key=#{API_KEY}"
+        url = "https://api.data.gov/nrel/alt-fuel-stations/v1/#{station_id}.json?api_key=#{API_KEY}"
+        log("CONSTRUCTED URL: \"#{url}\"")
         response = RestClient.get url
         
         # did we get a positive reply?
